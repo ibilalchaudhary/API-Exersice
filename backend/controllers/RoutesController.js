@@ -24,7 +24,7 @@ const setGoal = asyncHandler(async (req, res) => {
 });
 
 // getGoal
-// GET
+// no body is gona know
 // http://localhost:5000/api/goal
 const updateGoal = asyncHandler(async (req, res) => {
   const goal = await Goal.findById(req.params.id);
